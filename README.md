@@ -11,7 +11,7 @@ Crie o Arquivo .env
 
 
 Atualize as variáveis de ambiente do arquivo .env
-
+```sh
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:V4cMzTRGQvNFnzyazIk0pd6DelbUUFdKinenaRsz+Cg=
@@ -71,7 +71,7 @@ VITE_PUSHER_HOST="${PUSHER_HOST}"
 VITE_PUSHER_PORT="${PUSHER_PORT}"
 VITE_PUSHER_SCHEME="${PUSHER_SCHEME}"
 VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-
+```
 
 Suba os containers do projeto
 ```sh
